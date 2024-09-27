@@ -32,7 +32,7 @@ func main() {
 		"Agus":     19,
 		"Irfan":    20,
 		"Johannes": 19,
-		"Imanuel":  20,
+		"Imanuel":  21,
 	}
 
 	fmt.Println("Umur Imanuel tahun ini:", stdAge["Imanuel"])
