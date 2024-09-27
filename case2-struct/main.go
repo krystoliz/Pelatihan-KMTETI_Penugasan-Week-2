@@ -23,7 +23,10 @@ import "fmt"
 // berjudul "Bumi" karangan Tere Liye seharga 97000 sebanyak 1 buah.
 
 type Books struct{
-	
+	Title string
+    BookWriter string
+    Price int
+    Count int
 }
 type Transaction struct{
 	Total int
