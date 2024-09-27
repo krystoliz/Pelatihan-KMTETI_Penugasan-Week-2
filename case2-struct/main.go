@@ -22,8 +22,14 @@ import "fmt"
 // karangan Leila S. Chudori seharga 108000 sebanyak 1 buah. Buku berikutnya
 // berjudul "Bumi" karangan Tere Liye seharga 97000 sebanyak 1 buah.
 
-type Books struct{}
-type Transaction struct{}
+type Books struct{
+	
+}
+type Transaction struct{
+	Total int
+	Date string
+	Books []Books
+}
 
 func main() {
 	// Modifikasi pendefinisian variable tx1 sehingga sesuai dengan kasus
