@@ -29,8 +29,8 @@ type Books struct{
 	COunt int
 }
 type Transaction struct{
-	Total  string
-	Date    string
+	Total int
+	Date  string
 	Books []Books
 
 }
@@ -38,7 +38,11 @@ type Transaction struct{
 func main() {
 	// Modifikasi pendefinisian variable tx1 sehingga sesuai dengan kasus
 	// yang diceritakan.
-	tx1 := Transaction{}
+	tx1 := Transaction{
+		Total: 32000,
+		Date: "23-01-2021",
+
+	}
 
 	fmt.Println(tx1)
 }
