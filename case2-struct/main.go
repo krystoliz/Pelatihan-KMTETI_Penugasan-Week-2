@@ -23,10 +23,10 @@ import "fmt"
 // berjudul "Bumi" karangan Tere Liye seharga 97000 sebanyak 1 buah.
 
 type Books struct{
-	Ttile string 
+	Title string 
 	Writer string
 	Price int
-	COunt int
+	Count int
 }
 type Transaction struct{
 	Total int
@@ -41,6 +41,20 @@ func main() {
 	tx1 := Transaction{
 		Total: 32000,
 		Date: "23-01-2021",
+		Books: []Books{
+			{
+				Title: "Laut Bercerita",
+                Writer: "Leila S. Chudori",
+                Price: 108000,
+                Count: 1,
+			},
+			{
+				Title: "Bumi",
+                Writer: "Tere Liye",
+                Price: 97000,
+                Count: 1,
+			},
+		},
 
 	}
 
