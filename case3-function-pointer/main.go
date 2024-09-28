@@ -25,6 +25,6 @@ func main() {
 
 	asdos := []Mahasiswa{m1, m2, m3}
 
-	updateStatus([2]asdos)
-	fmt.Println(m3)
+	updateStatus(&asdos[2]) //ref dengan & agar merefer ke pointer mhs
+	fmt.Println(asdos[2])
 }
